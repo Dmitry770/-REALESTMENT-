@@ -1,0 +1,43 @@
+{ "articles" : 
+    [
+        {
+            "name" : "Omni Boston Seaport Hotel",
+            "place" : "Boston, MA USA",
+            "adress" : "370-430 Summer Street, Seaport District",
+            "ranking" : "88",
+            "projectProgress" : "Under construction",
+            "projectBudget" : "$550 000 000",
+            "startDate" : "30 Sep. 2018",
+            "completionDate" : "31 Mar. 2021",
+            "constructors" : "Janey Construction Management & Consulting and John Moriarty & Associates",
+            "developers" : "New Boston Hospitality, Omni Hotels & Resorts, and The Davis Companies",
+            "fundingTarget" : "$11 000 000",
+            "equityShare" : "2%",
+            "closingDate" : "1 Dec. 2019",
+            "minInvestment" : "$1 000",
+            "projectTerm" : "30 months",
+            "about" : "Upcoming 1,055-room Omni Hotel located on a 2.1-acre parcel across from the Boston Convention and Exhibition Center (BCEC). The new 788,500-square-foot hotel will feature two new 21-story towers connected by a three-story ground-floor podium. The hotel will include 746 standard rooms 386 square feet in size, as well as 278 innovation rooms 250 square feet in size. The hotel will also include 120,000 square feet of meeting and event space including two large 25,000-square-foot and 15,500-square-foot ballrooms, 35,000 square feet of restaurant space, 5,000 square feet of retail space and an 8,500-square-foot spa and fitness center. Guest amenities will include a rooftop pool; the hotel could also include an above-ground skating rink.",
+            "imageUrl" : "https://s3.amazonaws.com/bldup/project_images/avatars/000/003/579/original/Omni-Hotel-Seaport-District-Boston-Development-The-Davis-Companies-Massport-Summer-Street-Boston-Convention-Exhibition-Center.jpg?1504473919"
+        },
+        {
+            "name" : "Hudson's site",
+            "place" : "Detroit, MI USA",
+            "adress" : "21-10 Woodward Avenue, Library Street",
+            "ranking" : "75",
+            "projectProgress" : "Under construction",
+            "projectBudget" : "$750 000 000",
+            "startDate" : "15 Jun 2015",
+            "completionDate" : "01 Nov. 2022",
+            "constructors" : "SHoP Architects with Hamilton Anderson Associates",
+            "developers" : "Hamilton Anderson Associates",
+            "fundingTarget" : "$45 000 000",
+            "equityShare" : "5%",
+            "closingDate" : "01 Jan. 2020",
+            "minInvestment" : "$5 000",
+            "projectTerm" : "24 months",
+            "about" : "SHoP is the architect on dozens of world-renowned projects like the Barclays Center at Atlantic Yards in Brooklyn, New York, where the world’s tallest modular housing towers — also designed by SHoP — are currently under construction. The modules are being fabricated in a nearby factory setting with the Brooklyn Navy Yard and point to a promising new frontier for urban manufacturing. Hamilton Anderson’s notable Detroit area projects include the Tech One Building at the TechTown Research and Technology Park, Wayne State University Welcome Center and the award-winning North Terminal at Detroit Metropolitan Airport.",
+            "imageUrl" : "https://amp.businessinsider.com/images/5b69dd83dcee3029008b4ec7-1536-1152.jpg"
+            
+        }
+    ]
+}

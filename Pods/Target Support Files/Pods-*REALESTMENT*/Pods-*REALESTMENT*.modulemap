@@ -1,0 +1,6 @@
+framework module Pods__REALESTMENT_ {
+  umbrella header "Pods-*REALESTMENT*-umbrella.h"
+
+  export *
+  module * { export * }
+}
