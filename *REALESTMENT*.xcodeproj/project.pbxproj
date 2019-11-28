@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		924C22B082E1DDE32278407C /* Pods__REALESTMENT_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B550D9ED5470A93BF182100 /* Pods__REALESTMENT_.framework */; };
+		E200C02D235E34F2002DCC0B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200C02C235E34F2002DCC0B /* MenuViewController.swift */; };
+		E200C031235E3535002DCC0B /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E200C030235E3535002DCC0B /* MenuTableViewCell.swift */; };
+		E20102D9238DC26700330352 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E20102D7238DC26700330352 /* Model.xcdatamodeld */; };
 		E201300C234B5716008E4303 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201300B234B5716008E4303 /* TableViewCell.swift */; };
+		E201A20D237C7793005F9428 /* 4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E201A20C237C7792005F9428 /* 4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg */; };
+		E20219C523637568009C188F /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20219C423637568009C188F /* EditAccountViewController.swift */; };
 		E20325F0234924AB0033320E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20325EF234924AB0033320E /* AppDelegate.swift */; };
 		E20325F2234924AB0033320E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20325F1234924AB0033320E /* SceneDelegate.swift */; };
 		E20325F7234924AC0033320E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20325F5234924AB0033320E /* Main.storyboard */; };
@@ -16,21 +21,36 @@
 		E20325FC234924AD0033320E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20325FA234924AD0033320E /* LaunchScreen.storyboard */; };
 		E2032604234925030033320E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2032603234925030033320E /* TableViewController.swift */; };
 		E2032606234925A30033320E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E2032605234925A30033320E /* data.json */; };
+		E20496F423588C6B00D9F573 /* ForgotMyPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20496F323588C6B00D9F573 /* ForgotMyPasswordViewController.swift */; };
 		E205D9132354F2B50059E84E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205D9122354F2B50059E84E /* GoogleService-Info.plist */; };
+		E207DA6C236CD2CC00B10901 /* MyInvestmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E207DA6B236CD2CC00B10901 /* MyInvestmentsViewController.swift */; };
+		E207DA6E236CD6BB00B10901 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E207DA6D236CD6BB00B10901 /* FavouritesViewController.swift */; };
+		E209A4CB236782AE00D33715 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209A4CA236782AE00D33715 /* AccountViewController.swift */; };
 		E2121CD72350FBCF0027DEA6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2121CD62350FBCF0027DEA6 /* HomeViewController.swift */; };
 		E2121CD92350FBE10027DEA6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2121CD82350FBE10027DEA6 /* LoginViewController.swift */; };
 		E2121CDB2350FBFB0027DEA6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2121CDA2350FBFB0027DEA6 /* SignUpViewController.swift */; };
 		E2121CE0235118B00027DEA6 /* Снимок экрана 2019-10-11 в 23.06.57.png in Resources */ = {isa = PBXBuildFile; fileRef = E2121CDF235118B00027DEA6 /* Снимок экрана 2019-10-11 в 23.06.57.png */; };
 		E27E1D94234E5908003A5C9A /* OneObjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E1D93234E5908003A5C9A /* OneObjViewController.swift */; };
+		E2C49B1423701BA500F0FF4F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C49B1323701BA500F0FF4F /* SearchViewController.swift */; };
 		E2FD795B234A2A810021F95E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD795A234A2A810021F95E /* Model.swift */; };
 		E2FD795D234A2B600021F95E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD795C234A2B600021F95E /* Article.swift */; };
+		E2FE6539235B5805004AD732 /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FE6538235B5805004AD732 /* options.png */; };
+		E2FED4CD23882D930087E359 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FED4CC23882D930087E359 /* Account.swift */; };
+		E2FEE432237DE18700AE9F27 /* license.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2FEE431237DE18700AE9F27 /* license.jpg */; };
+		E2FEE434237DE3E400AE9F27 /* kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2FEE433237DE3E400AE9F27 /* kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg */; };
+		E2FEE436237DE51C00AE9F27 /* karta-master-card.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FEE435237DE51C00AE9F27 /* karta-master-card.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B550D9ED5470A93BF182100 /* Pods__REALESTMENT_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__REALESTMENT_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D0DC6E65951C0CBC2C6CBB /* Pods-*REALESTMENT*.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-*REALESTMENT*.debug.xcconfig"; path = "Target Support Files/Pods-*REALESTMENT*/Pods-*REALESTMENT*.debug.xcconfig"; sourceTree = "<group>"; };
 		B97A5847A061BFB050D6F001 /* Pods-*REALESTMENT*.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-*REALESTMENT*.release.xcconfig"; path = "Target Support Files/Pods-*REALESTMENT*/Pods-*REALESTMENT*.release.xcconfig"; sourceTree = "<group>"; };
+		E200C02C235E34F2002DCC0B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E200C030235E3535002DCC0B /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		E20102D8238DC26700330352 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E201300B234B5716008E4303 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E201A20C237C7792005F9428 /* 4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg"; sourceTree = "<group>"; };
+		E20219C423637568009C188F /* EditAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
 		E20325EC234924AB0033320E /* *REALESTMENT*.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "*REALESTMENT*.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20325EF234924AB0033320E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E20325F1234924AB0033320E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,14 +60,24 @@
 		E20325FD234924AD0033320E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2032603234925030033320E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E2032605234925A30033320E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E20496F323588C6B00D9F573 /* ForgotMyPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotMyPasswordViewController.swift; sourceTree = "<group>"; };
 		E205D9122354F2B50059E84E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E207DA6B236CD2CC00B10901 /* MyInvestmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvestmentsViewController.swift; sourceTree = "<group>"; };
+		E207DA6D236CD6BB00B10901 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		E209A4CA236782AE00D33715 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		E2121CD62350FBCF0027DEA6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2121CD82350FBE10027DEA6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E2121CDA2350FBFB0027DEA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E2121CDF235118B00027DEA6 /* Снимок экрана 2019-10-11 в 23.06.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Снимок экрана 2019-10-11 в 23.06.57.png"; path = "../../../../Desktop/Снимок экрана 2019-10-11 в 23.06.57.png"; sourceTree = "<group>"; };
 		E27E1D93234E5908003A5C9A /* OneObjViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneObjViewController.swift; sourceTree = "<group>"; };
+		E2C49B1323701BA500F0FF4F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E2FD795A234A2A810021F95E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E2FD795C234A2B600021F95E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E2FE6538235B5805004AD732 /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options.png; sourceTree = "<group>"; };
+		E2FED4CC23882D930087E359 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		E2FEE431237DE18700AE9F27 /* license.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = license.jpg; sourceTree = "<group>"; };
+		E2FEE433237DE3E400AE9F27 /* kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg"; sourceTree = "<group>"; };
+		E2FEE435237DE51C00AE9F27 /* karta-master-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "karta-master-card.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +98,6 @@
 				28D0DC6E65951C0CBC2C6CBB /* Pods-*REALESTMENT*.debug.xcconfig */,
 				B97A5847A061BFB050D6F001 /* Pods-*REALESTMENT*.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,6 +107,27 @@
 				1B550D9ED5470A93BF182100 /* Pods__REALESTMENT_.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E200C02B235E34CE002DCC0B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E200C02C235E34F2002DCC0B /* MenuViewController.swift */,
+				E200C030235E3535002DCC0B /* MenuTableViewCell.swift */,
+				E207DA6D236CD6BB00B10901 /* FavouritesViewController.swift */,
+				E207DA6B236CD2CC00B10901 /* MyInvestmentsViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E20219C32363753C009C188F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				E20219C423637568009C188F /* EditAccountViewController.swift */,
+				E209A4CA236782AE00D33715 /* AccountViewController.swift */,
+				E2FED4CC23882D930087E359 /* Account.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		E20325E3234924AB0033320E = {
@@ -104,9 +154,18 @@
 				E2FD7959234A2A6E0021F95E /* Model */,
 				E20325EF234924AB0033320E /* AppDelegate.swift */,
 				E20325F1234924AB0033320E /* SceneDelegate.swift */,
+				E2C49B1223701B7E00F0FF4F /* Search */,
+				E20219C32363753C009C188F /* Account */,
+				E200C02B235E34CE002DCC0B /* Menu */,
 				E2121CDC2350FC020027DEA6 /* EnterViewControllers */,
 				E205D9112354E6D70059E84E /* MainObjectViewControllers */,
+				E20102D7238DC26700330352 /* Model.xcdatamodeld */,
 				E2032605234925A30033320E /* data.json */,
+				E2FE6538235B5805004AD732 /* options.png */,
+				E2FEE433237DE3E400AE9F27 /* kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg */,
+				E201A20C237C7792005F9428 /* 4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg */,
+				E2FEE435237DE51C00AE9F27 /* karta-master-card.png */,
+				E2FEE431237DE18700AE9F27 /* license.jpg */,
 				E2121CDF235118B00027DEA6 /* Снимок экрана 2019-10-11 в 23.06.57.png */,
 				E20325F5234924AB0033320E /* Main.storyboard */,
 				E20325F8234924AD0033320E /* Assets.xcassets */,
@@ -131,10 +190,19 @@
 			isa = PBXGroup;
 			children = (
 				E2121CD82350FBE10027DEA6 /* LoginViewController.swift */,
+				E20496F323588C6B00D9F573 /* ForgotMyPasswordViewController.swift */,
 				E2121CDA2350FBFB0027DEA6 /* SignUpViewController.swift */,
 				E2121CD62350FBCF0027DEA6 /* HomeViewController.swift */,
 			);
 			path = EnterViewControllers;
+			sourceTree = "<group>";
+		};
+		E2C49B1223701B7E00F0FF4F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E2C49B1323701BA500F0FF4F /* SearchViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		E2FD7959234A2A6E0021F95E /* Model */ = {
@@ -207,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20325FC234924AD0033320E /* LaunchScreen.storyboard in Resources */,
+				E2FEE434237DE3E400AE9F27 /* kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg in Resources */,
 				E20325F9234924AD0033320E /* Assets.xcassets in Resources */,
+				E2FE6539235B5805004AD732 /* options.png in Resources */,
+				E2FEE436237DE51C00AE9F27 /* karta-master-card.png in Resources */,
+				E2FEE432237DE18700AE9F27 /* license.jpg in Resources */,
 				E2121CE0235118B00027DEA6 /* Снимок экрана 2019-10-11 в 23.06.57.png in Resources */,
+				E201A20D237C7793005F9428 /* 4b6273bb32fa853e108f7b343f10007c--haircuts-for-men-hairstyles-men.jpg in Resources */,
 				E20325F7234924AC0033320E /* Main.storyboard in Resources */,
 				E2032606234925A30033320E /* data.json in Resources */,
 				E205D9132354F2B50059E84E /* GoogleService-Info.plist in Resources */,
@@ -264,15 +337,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E207DA6E236CD6BB00B10901 /* FavouritesViewController.swift in Sources */,
 				E2121CD92350FBE10027DEA6 /* LoginViewController.swift in Sources */,
 				E20325F0234924AB0033320E /* AppDelegate.swift in Sources */,
 				E2032604234925030033320E /* TableViewController.swift in Sources */,
+				E207DA6C236CD2CC00B10901 /* MyInvestmentsViewController.swift in Sources */,
 				E20325F2234924AB0033320E /* SceneDelegate.swift in Sources */,
 				E2121CDB2350FBFB0027DEA6 /* SignUpViewController.swift in Sources */,
+				E20102D9238DC26700330352 /* Model.xcdatamodeld in Sources */,
 				E2121CD72350FBCF0027DEA6 /* HomeViewController.swift in Sources */,
+				E20496F423588C6B00D9F573 /* ForgotMyPasswordViewController.swift in Sources */,
+				E200C02D235E34F2002DCC0B /* MenuViewController.swift in Sources */,
 				E2FD795B234A2A810021F95E /* Model.swift in Sources */,
+				E200C031235E3535002DCC0B /* MenuTableViewCell.swift in Sources */,
+				E2C49B1423701BA500F0FF4F /* SearchViewController.swift in Sources */,
+				E20219C523637568009C188F /* EditAccountViewController.swift in Sources */,
+				E209A4CB236782AE00D33715 /* AccountViewController.swift in Sources */,
 				E201300C234B5716008E4303 /* TableViewCell.swift in Sources */,
 				E27E1D94234E5908003A5C9A /* OneObjViewController.swift in Sources */,
+				E2FED4CD23882D930087E359 /* Account.swift in Sources */,
 				E2FD795D234A2B600021F95E /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +554,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E20102D7238DC26700330352 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E20102D8238DC26700330352 /* Model.xcdatamodel */,
+			);
+			currentVersion = E20102D8238DC26700330352 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E20325E4234924AB0033320E /* Project object */;
 }

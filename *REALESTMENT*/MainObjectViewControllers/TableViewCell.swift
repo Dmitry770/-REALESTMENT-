@@ -12,31 +12,17 @@ class TableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var imageBuilding: UIImageView!
-    
-    
     @IBOutlet weak var nameLabel: UILabel!
-    
     @IBOutlet weak var adressLabel: UILabel!
-    
     @IBOutlet weak var fundTargetLabel: UILabel!
-    
     @IBOutlet weak var equShareLabel: UILabel!
-    
     @IBOutlet weak var projectTermLabel: UILabel!
-    
     @IBOutlet weak var projectProgrLabel: UILabel!
-    
-    
     @IBAction func learMoreTap(_ sender: UIButton) {
-       // sender.superview
-        //print(sender.superview)
-        
     }
     
     @IBOutlet weak var learnMoreButton: UIButton!
     
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -14,7 +14,7 @@
             "fundingTarget" : "$11 000 000",
             "equityShare" : "2%",
             "closingDate" : "1 Dec. 2019",
-            "minInvestment" : "$1 000",
+            "minInvestment" : "1000",
             "projectTerm" : "30 months",
             "about" : "Upcoming 1,055-room Omni Hotel located on a 2.1-acre parcel across from the Boston Convention and Exhibition Center (BCEC). The new 788,500-square-foot hotel will feature two new 21-story towers connected by a three-story ground-floor podium. The hotel will include 746 standard rooms 386 square feet in size, as well as 278 innovation rooms 250 square feet in size. The hotel will also include 120,000 square feet of meeting and event space including two large 25,000-square-foot and 15,500-square-foot ballrooms, 35,000 square feet of restaurant space, 5,000 square feet of retail space and an 8,500-square-foot spa and fitness center. Guest amenities will include a rooftop pool; the hotel could also include an above-ground skating rink.",
             "imageUrl" : "https://s3.amazonaws.com/bldup/project_images/avatars/000/003/579/original/Omni-Hotel-Seaport-District-Boston-Development-The-Davis-Companies-Massport-Summer-Street-Boston-Convention-Exhibition-Center.jpg?1504473919"
@@ -33,10 +33,30 @@
             "fundingTarget" : "$45 000 000",
             "equityShare" : "5%",
             "closingDate" : "01 Jan. 2020",
-            "minInvestment" : "$5 000",
+            "minInvestment" : "5000",
             "projectTerm" : "24 months",
             "about" : "SHoP is the architect on dozens of world-renowned projects like the Barclays Center at Atlantic Yards in Brooklyn, New York, where the world’s tallest modular housing towers — also designed by SHoP — are currently under construction. The modules are being fabricated in a nearby factory setting with the Brooklyn Navy Yard and point to a promising new frontier for urban manufacturing. Hamilton Anderson’s notable Detroit area projects include the Tech One Building at the TechTown Research and Technology Park, Wayne State University Welcome Center and the award-winning North Terminal at Detroit Metropolitan Airport.",
             "imageUrl" : "https://amp.businessinsider.com/images/5b69dd83dcee3029008b4ec7-1536-1152.jpg"
+            
+        },
+        {
+            "name" : "Church Street Plaza",
+            "place" : "Orlando, FL USA",
+            "adress" : "225 South Garland Avenue, Orlando, FL 32801",
+            "ranking" : "70",
+            "projectProgress" : "Under construction",
+            "projectBudget" : "$100 000 000",
+            "startDate" : "01 Apr. 2017",
+            "completionDate" : "01 Nov. 2022",
+            "constructors" : "Mason Capital Partners",
+            "developers" : "Mason Capital Partners, Pope & Land Real Estate and Lincoln Property Company",
+            "fundingTarget" : "$5 000 000",
+            "equityShare" : "5%",
+            "closingDate" : "01 Jan. 2020",
+            "minInvestment" : "1000",
+            "projectTerm" : "20 months",
+            "about" : "Church Street Plaza is in the center of Downtown Orlando. Church Street Plaza is a brand-new, contemporary mixed-use office tower at the corner of South Street and Garland Avenue in Downtown Orlando. State-of-the-art building systems (LEED design), ground-floor retail, conference space and a first-class hotel further distinguishing the building as Orlando’s newest landmark.                                                                                       - 28-story office & hotel tower;                                                                - 10,000± SF meeting space;                                                                     - Club / amenity floors;                                                                        - 200,000± SF office space and 180± hotel rooms;                                                - 9 parking levels with 600± parking spaces;                                                    - 7,000± SF Ground floor retail.",
+            "imageUrl" : "https://photos.wikimapia.org/p/00/04/07/36/04_full.jpg"
             
         }
     ]

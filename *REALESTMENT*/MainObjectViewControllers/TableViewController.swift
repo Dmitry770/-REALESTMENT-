@@ -8,12 +8,11 @@
 
 import UIKit
 
-
-
-
 class TableViewController: UITableViewController {
     
- 
+    @IBOutlet weak var menuButtonItem: UIBarButtonItem!
+    
+    var menuVC: MenuViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +20,45 @@ class TableViewController: UITableViewController {
             DispatchQueue.main.async {
                   self.tableView.reloadData()
             }
-          
         }
+        menuVC = self.storyboard?.instantiateViewController(withIdentifier: "MenuVC") as? MenuViewController
+        objectsArray = articles
     }
 
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(true)
+//       tableView.reloadData()
+//    }
+    
+    @IBAction func menuTapped(_ sender: Any) {
+        // no working => any - UIbarbuttonItem
+        if AppDelegate.isMenuVC {
+            showMenu()
+        }
+        else {
+            hideMenu()
+        }
+    }
+    
+    func showMenu() {
+        UIView.animate(withDuration: 0.3) {
+            self.menuVC.view.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+            self.addChild(self.menuVC)
+            self.view.addSubview(self.menuVC.view)
+            AppDelegate.isMenuVC = false
+        }
+        
+    }
+    
+    func hideMenu() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.menuVC.view.frame = CGRect(x: 0, y: UIScreen.main.bounds.size.width, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        }) { (finished) in
+            self.menuVC.view.removeFromSuperview()
+            AppDelegate.isMenuVC = true
+        }
+        
+    }
     
     
     // MARK: - Table view data source
@@ -36,14 +70,14 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return articles.count
+        return objectsArray.count
     }
 
+    var objectsArray: [Article] = []
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
-
-        let article = articles[indexPath.row]
+        let article = objectsArray[indexPath.row]
        
         cell.nameLabel.text = article.name
         cell.adressLabel.text = article.place
@@ -57,33 +91,11 @@ class TableViewController: UITableViewController {
                 cell.imageBuilding.image = UIImage(data: data)
             }
         }
-        
         return cell
     }
    
-   /* override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-          performSegue(withIdentifier: "goToObj", sender: self)
-      }
-    */
- /*   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       
-        (segue.destination as! OneObjViewController).article =  articles[tableView.indexPathForSelectedRow!.row]
-              
-    } */
-     /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         if segue.identifier == "showDetails" {
-             if let destination = segue.destination as? CalculateViewController,
-                 let cell = sender as? UITableViewCell,
-                 let indexPath = tableView.indexPath(for: cell) {
-                 destination.ships = self.ships[indexPath.row]
-             }
-         }
-     }*/
-    
-    
-    
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       // if segue.identifier == "goToObj" {
+        if segue.identifier == "goToObj" {
         var rowNum: Int
         if (tableView.indexPathForSelectedRow != nil) {
             rowNum = tableView.indexPathForSelectedRow!.row
@@ -94,8 +106,8 @@ class TableViewController: UITableViewController {
             rowNum = path!.row
         }
         (segue.destination as? OneObjViewController)!.article = articles[rowNum]
-            
-    // }
+        }
+
      } 
    /*  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
          performSegue(withIdentifier: "goToProject", sender: self)
